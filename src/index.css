@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+.image {
+    box-shadow: 0 0 20px #00ff51;
+    transition: 0.2s ease-in-out;
+}
+
+.image:hover {
+    box-shadow: 0 0 45px #00ff51;
+}
+
+.hire {
+    box-shadow: 0 0 10px #00ff51;
+    transition: 0.2s ease-in-out;
+}
+
+.hire:hover {
+    box-shadow: 0 0 27px #00ff51;
+}
+
+.contact:hover {
+    box-shadow: 0 0 15px #00ff51;
+}
+
+.ancher {
+    transition: 0.3s ease;
+}
+
+.ancher:hover {
+    transform: scale(1.2) translateY(-5px);
+    box-shadow: 0 0 20px #00ff51;
+}
+
+::webkit ::-webkit-scrollbar {
+    width: 10px;
+}
+
+::webkit ::-webkit-scrollbar-thumb {
+    background-color: #00ff51;
+}
+
+::webkit ::-webkit-scrollbar-track {
+    background-color: black;
+}
+.cards{
+    transition: 0.3s ease-in-out;
+}
+.cards:hover{
+    box-shadow: 0 0 40px #00ff51;
+    transform: scale(1.1);
+}
